@@ -5,19 +5,78 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Personal Page</title>
   <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+  <style>
+    /* Inline styles for simplicity, in case styles.css is not updated */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    .container {
+      display: flex;
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .left {
+      flex: 2;
+      margin-right: 20px;
+    }
+    .right {
+      flex: 1;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
     <div class="left">
       <h1>Welcome to my page</h1>
-      <p>Hello! I'm Jorge Emmanuel Rosales Silva, and this is my personal page. I'm passionate about Science and Arts. Here are some links to know more about me:</p>
-      <ul>
-        
-        <li><a href="https://www.linkedin.com/in/jorge-emmanuel-rosales-silva/">LinkedIn</a></li>
-      </ul>
+
+      <p>
+        Hello, I’m Jorge Emmanuel Rosales Silva, and this is my personal page. I’m passionate about science and the arts, which I see as complementary ways to understand life. My favorite art form is music, and I’ve explored several instruments, including the guitar, violin, piano, and saxophone.
+      </p>
+
+      <p>
+        I studied Applied Mathematics at the Autonomous Technology Institute of Mexico (ITAM), where I specialized in statistics. Currently, I am writing my thesis on simulation methods to infer COVID-19 contagion risks among boroughs in Mexico City, expanding existing Bayesian models with real data. In particular, I apply Markov Chain Monte Carlo (MCMC) methods such as Gibbs sampling. My advisor, Dr. Felipe Medina, has been instrumental in guiding this research. You can explore his work here: <a href="https://scholar.google.com/citations?user=NELTcygAAAAJ&hl=en" target="_blank">Dr. Felipe Google Scholar</a>.
+      </p>
+
+      <p>
+        Currently, I work as an economist at the Central Bank of Mexico (Banxico). You can find more about my professional journey through my <a href="https://www.linkedin.com/in/jorge-emmanuel-rosales-silva/" target="_blank">LinkedIn</a>.
+      </p>
+
+      <p>
+        In addition, I run <a href="https://www.youtube.com/channel/UC61YHIOJUMTMfUAPy0zKNpg" target="_blank">My YouTube Channel</a>, where I share advice for current and prospective undergraduate students. My videos cover topics that are rarely discussed but are essential for navigating university life, such as scholarship opportunities, practical study tips, and advice that will be useful when graduating and seeking jobs or applying to graduate programs.
+      </p>
+
+      <p>
+        I am also developing mathematics outreach videos to inspire students by showcasing real-world applications of mathematics. My mission is to encourage students to pursue educational and professional opportunities and discover the joy of learning.
+      </p>
     </div>
     <div class="right">
-      <img src="yourphoto.jpg" alt="Your Name's Photo">
+      <img src="yourphoto.jpg" alt="Jorge Emmanuel Rosales Silva's Photo">
     </div>
   </div>
 </body>
